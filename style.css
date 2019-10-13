@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /* width: calc(100vw - (100vw - 100%)); */
+    height: 100vh;
+    padding: 5px;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#roma {
+    background: url('http://www.visitareromain3giorni.it/wp-content/uploads/2016/03/1920px-Colosseum_in_Rome-April_2007-1-_copie_2B-695x408@2x.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#copenaghen {
+    background: url('https://images.lonelyplanetitalia.it/uploads/il-variopinto-nyhavn-di-sera.jpg?q=80&p=slider&s=edeca3b4fb762de69af5f862a943b7d6');
+    background-size: cover;
+    background-position: center;
+}
+
+#tokio {
+    background: url('https://mediafiles.urlaubsguru.de/wp-content/uploads/2018/09/Tokio-Japan-EDITORIAL-ONLY-ESB-Professional-shutterstock_302738093.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.titolo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-size: 50px;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    border: 5px solid white;
+}
